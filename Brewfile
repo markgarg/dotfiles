@@ -1,6 +1,5 @@
 # Taps
 tap 'homebrew/cask-fonts'
-tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
 tap 'nicoverbruggen/homebrew-cask'
 
@@ -27,6 +26,7 @@ brew 'node'
 brew 'yarn'
 
 # Apps
+cask 'beyond-compare'
 cask 'caffeine'
 cask 'dbngin'
 cask 'docker'
@@ -36,10 +36,13 @@ cask 'google-chrome'
 cask 'helo'
 cask 'imageoptim'
 cask 'insomnia'
+cask 'iterm2'
 cask 'pastebot'
 cask 'readdle-spark'
+cask 'rectangle'
 cask 'screenflow'
 cask 'slack'
+cask 'sublime-text'
 cask 'tableplus'
 cask 'the-unarchiver'
 cask 'tinkerwell'
