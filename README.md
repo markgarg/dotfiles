@@ -32,13 +32,13 @@ After backing up your old Mac you may now follow these install instructions to s
 2. [Generate a new public and private SSH key](https://docs.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) by running:
 
    ```zsh
-   curl https://raw.githubusercontent.com/driesvints/dotfiles/HEAD/ssh.sh | sh -s "<your-email-address>"
+   curl https://raw.githubusercontent.com/markgarg/dotfiles/HEAD/ssh.sh | sh -s "<your-email-address>"
    ```
 
 3. Clone this repo to `~/.dotfiles` with:
 
     ```zsh
-    git clone --recursive git@github.com:driesvints/dotfiles.git ~/.dotfiles
+    git clone --recursive git@github.com:markgarg/dotfiles.git ~/.dotfiles
     ```
 
 4. Run the installation with:
@@ -47,8 +47,8 @@ After backing up your old Mac you may now follow these install instructions to s
     cd ~/.dotfiles && ./fresh.sh
     ```
 
-5. Start `Herd.app` and run its install process
-6. After mackup is synced with your cloud storage, restore preferences by running `mackup restore`
+<!-- 5. Start `Herd.app` and run its install process -->
+<!-- 6. After mackup is synced with your cloud storage, restore preferences by running `mackup restore` -->
 7. Restart your computer to finalize the process
 
 Your Mac is now ready to use!
@@ -60,8 +60,6 @@ Your Mac is now ready to use!
 After you've set up your new Mac you may want to wipe and clean install your old Mac. Follow [this article](https://support.apple.com/guide/mac-help/erase-and-reinstall-macos-mh27903/mac) to do that. Remember to [backup your data](#backup-your-data) first!
 
 ## Your Own Dotfiles
-
-**Please note that the instructions below assume you already have set up Oh My Zsh so make sure to first [install Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh#getting-started) before you continue.**
 
 If you want to start with your own dotfiles from this setup, it's pretty easy to do so. First of all you'll need to fork this repo. After that you can tweak it the way you want.
 

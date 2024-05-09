@@ -16,8 +16,6 @@ brew 'jq' # Used for spatie/visit
 brew 'mackup'
 brew 'mas' # Mac App Store manager
 brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
-brew 'stripe/stripe-cli/stripe'
-brew 'stripe/stripe-mock/stripe-mock'
 brew 'svn' # Needed to install fonts
 
 # Development
@@ -26,12 +24,13 @@ brew 'node'
 brew 'yarn'
 
 # Apps
+cask 'brave-browser'
 cask 'beyond-compare'
 cask 'caffeine'
 cask 'dbngin'
 cask 'docker'
 cask 'firefox'
-cask 'github'
+cask 'gitup'
 cask 'google-chrome'
 cask 'helo'
 cask 'imageoptim'
