@@ -78,7 +78,8 @@ ZSH_CUSTOM=$DOTFILES
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+# Auto jump, utility for moving between directories
+plugins=(git autojump)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -109,6 +110,3 @@ export LANG=en_US.UTF-8
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
-
-# Auto jump, utility for moving between directories
-[ -f /opt/homebrew/etc/profile.d/autojump.sh ] && . /opt/homebrew/etc/profile.d/autojump.sh
