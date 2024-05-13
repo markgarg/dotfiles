@@ -18,6 +18,7 @@ brew 'mackup'
 brew 'mas' # Mac App Store manager
 brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
 brew 'svn' # Needed to install fonts
+brew 'zsh-syntax-highlighting'
 
 # Development
 brew 'imagemagick'
@@ -65,6 +66,7 @@ cask 'font-source-code-pro'
 cask 'font-source-sans-pro'
 cask 'font-source-serif-pro'
 cask 'font-jetbrains-mono'
+cask 'font-fira-code'
 
 # Mac App Store
 mas 'Byword', id: 420212497
